@@ -1,21 +1,21 @@
 import { View,Text,Image } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
-import './index.css';
+import styles from '@/styles';
 import { logo } from '@/constants/logo';
 
 function Home(){
 
     return(
-        <SafeAreaView className='bodyview'>
+        <SafeAreaView style={styles.bodyview}>
 
-            <View className="header">
-                <View className='logoview'>
+            <View style={styles.header}>
+                <View style={styles.logoview}>
                     <Image
                         source={logo.logox}
-                        className='home_logo'
+                        style={styles.home_logo}
                     />
                 </View>
-                <Text className='version_label'>
+                <Text style={styles.version_label}>
                     v0.0.1a
                 </Text>
             </View>
