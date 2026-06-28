@@ -1,0 +1,22 @@
+.bodyview{
+    background-color: #ffdfae;
+    color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logoview{
+    /* width & height */
+}
+
+.home_logo{
+    /* width & height*/
+}
+
+.version_label{
+    font-size: 0.5em;
+    color: grey;
+}
