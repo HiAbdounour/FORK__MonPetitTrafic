@@ -41,12 +41,6 @@ const Transilien_data:LineSettings[] = [
         checked:false
     },
     {
-        name:"H",
-        slug:"LigneH_SNCF",
-        icon:lines.H,
-        checked:false
-    },
-    {
         name:"J",
         slug:"LIGNEJ_SNCF",
         icon:lines.J,
