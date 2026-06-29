@@ -1,7 +1,7 @@
 import { View,Text,Image,FlatList } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
 import styles from '@/styles';
-import { lines_data } from '@/app/lines_data';
+import { get_lines_data } from '@/app/lines_data';
 import CheckBox from '../components/CheckBox';
 
 function Preferences(){
@@ -18,10 +18,10 @@ function Preferences(){
                         <Text>toggle!</Text>
                     </View>
                 )}
-                data={lines_data}
+                data={get_lines_data()}
                 renderItem={({ item }) => (
                     <View style={styles.checkbox_line}>
-                        <CheckBox/>
+                        <CheckBox slug={item.slug}/>
                         <Image
                             source={item.icon}
                             style={styles.line_icon}

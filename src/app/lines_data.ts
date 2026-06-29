@@ -1,6 +1,6 @@
-import { lines } from "@/constants/lines";
+import { lines, LinesValidNames } from "@/constants/lines";
 
-const RER_data:LineSettings[] = [
+let RER_data:LineSettings[] = [
     {
         name:"A",
         slug:"RER_A",
@@ -33,7 +33,7 @@ const RER_data:LineSettings[] = [
     }
 ]
 
-const Transilien_data:LineSettings[] = [
+let Transilien_data:LineSettings[] = [
     {
         name:"H",
         slug:"LigneH_SNCF",
@@ -90,7 +90,7 @@ const Transilien_data:LineSettings[] = [
     }
 ]
 
-const Metro_data:LineSettings[] = [
+let Metro_data:LineSettings[] = [
     {
         name:"M1",
         slug:"Ligne1_RATP",
@@ -189,7 +189,7 @@ const Metro_data:LineSettings[] = [
     }
 ]
 
-const Tram_data:LineSettings[] = [
+let Tram_data:LineSettings[] = [
     {
         name:"T1",
         slug:"T1_RATP",
@@ -285,4 +285,10 @@ const Tram_data:LineSettings[] = [
 // pour le Câble C1, se référer au territoire Marne et Seine
 // DSP et MP arrivent bientôt
 
-export const lines_data:LineSettings[] = RER_data.concat(Transilien_data,Metro_data,Tram_data)
+let lines_data:LineSettings[] = RER_data.concat(Transilien_data,Metro_data,Tram_data)
+export const get_lines_data = () => lines_data;
+export const set_lines_data = (line_name:LinesValidNames,value:boolean) => {
+    lines_data = lines_data.map(
+        line => line.name===line_name ? {...line,checked:value} : line
+    )
+};
