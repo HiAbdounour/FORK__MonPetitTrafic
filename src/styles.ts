@@ -7,8 +7,8 @@ export default StyleSheet.create({
     },
 
     header:{
-        flex: 1,
-        alignItems: 'center'
+        flexDirection: 'row',
+        justifyContent: 'center'
     },
 
     logoview:{
@@ -23,6 +23,33 @@ export default StyleSheet.create({
     version_label:{
         fontSize: 0.5,
         color: 'gray'
+    },
+
+    body:{
+
+    },
+
+    home_prbs:{
+        borderWidth: 2,
+        borderColor: 'black',
+        borderStyle: 'solid',
+        borderRadius: '9999px'
+    },
+
+    last_modif:{
+        fontSize: 2,
+        fontWeight: 700,
+        textAlign: 'center'
+    },
+
+    home_alert_icons:{
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: "center"
+    },
+
+    button_container:{
+        
     }
 
 })
