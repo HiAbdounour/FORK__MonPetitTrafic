@@ -39,6 +39,7 @@ function Home(){
                 <View style={styles.button_container}>
                     <CustomButton
                         txt='Mettre à jour les préférences'
+                        target='/(tabs)/settings'
                         onPress={() => {}}
                     />
                 </View>
