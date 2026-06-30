@@ -3,6 +3,7 @@ import SafeAreaView from 'react-native-safe-area-view';
 import styles from '@/styles';
 import { get_lines_data } from '@/app/lines_data';
 import CheckBox from '../components/CheckBox';
+import Toggle from '../components/Toggle';
 
 function Preferences(){
 
@@ -12,10 +13,17 @@ function Preferences(){
             <FlatList
                 ListHeaderComponent={() => (
                     <View>
-                        <Text style={styles.title}>
-                            Préférences
-                        </Text>
-                        <Text>toggle!</Text>
+                        <View>
+                            <Text style={styles.title}>
+                                Préférences
+                            </Text>
+                        </View>
+                        <View style={styles.toggle_container}>
+                            <Text style={styles.toggle_text}>
+                                (Dé)Activer les notifications
+                            </Text>
+                            <Toggle/>
+                        </View>
                     </View>
                 )}
                 data={get_lines_data()}

@@ -76,6 +76,16 @@ export default StyleSheet.create({
         marginLeft: 10,
         fontWeight: 600
     },
+
+    toggle_container:{
+        flexDirection: 'row',
+        margin: 10
+    },
+
+    toggle_text:{
+        fontSize: 10,
+        fontWeight: 400
+    },
     
     checkbox_line:{
         flexDirection:'row',
