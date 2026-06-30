@@ -1,6 +1,6 @@
 import { Link } from "expo-router";
 import { useState } from "react";
-import { Text,Pressable,StyleSheet } from "react-native"
+import { Pressable,StyleSheet } from "react-native"
 
 function StyleButton(){
     return StyleSheet.create({
@@ -38,7 +38,7 @@ function CustomButton({ txt,target,onPress }:CustomButtonProps){
             onPressIn={() => setIsPressed(true)}
             onPressOut={() => setIsPressed(false)}
         >
-            <Link href={target} style={styles.inner_text}>{txt}</Link>
+            <Link href={target as `/(tabs)?${string}`} style={styles.inner_text}>{txt}</Link>
         </Pressable>
     )
 }
