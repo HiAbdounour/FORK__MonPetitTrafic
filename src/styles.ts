@@ -2,16 +2,19 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
 
+    // App Background color
     bodyview:{
         backgroundColor: '#ffdfae'
     },
 
-    header:{
+
+    // =========== Main page (index.tsx) ===========
+    header:{ // logo + version container
         flexDirection: 'row',
         justifyContent: 'center'
     },
 
-    logoview:{
+    logoview:{ // logo container
         marginTop: 20,
         marginBottom: 20        
     },
@@ -28,11 +31,11 @@ export default StyleSheet.create({
         verticalAlign: 'bottom'
     },
 
-    body:{
+    body:{ // home_icons + button container
         margin: 10
     },
 
-    home_prbs:{
+    home_prbs:{ // home_icons container (with labels)
         borderWidth: 2,
         borderColor: 'black',
         borderStyle: 'solid',
@@ -54,13 +57,13 @@ export default StyleSheet.create({
         marginBottom: 10
     },
 
-    home_alert_icons:{
+    home_alert_icons:{ // home_icons container (without labels)
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: "center"
     },
 
-    line_icon:{
+    line_icon:{ // NB : Use only for lines displayed on Home page
         width: 45,
         height: 45
     },
@@ -69,14 +72,8 @@ export default StyleSheet.create({
 
     },
 
-    title:{
-        fontSize: 50,
-        textAlign: 'left',
-        marginTop: 10,
-        marginLeft: 10,
-        fontWeight: 600
-    },
 
+    // =========== Preferences page (settings.tsx) ===========
     toggle_container:{
         flexDirection: 'row',
         margin: 10
@@ -88,12 +85,25 @@ export default StyleSheet.create({
         marginVertical: 8.5
     },
     
-    checkbox_line:{
+    checkbox_line:{ // checkbox + line icon container
         flexDirection:'row',
         margin: 2.5,
         marginLeft: 10
     },
+    
 
+    // =========== FOR EVERYTHING ===========
+    title:{ // h1 tag equivalent
+        fontSize: 50,
+        textAlign: 'left',
+        marginTop: 10,
+        marginLeft: 10,
+        fontWeight: 600
+    },
+
+
+    // =========== USED ONLY FOR DEV PHASES ===========
+    // Should all start by DEV_ to be easily identifiable
     DEV_to_complete:{
         color: 'red',
         fontStyle: 'italic'
