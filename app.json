@@ -1,34 +1,34 @@
 {
   "expo": {
-    "name": "MonPetitTrafic",
+    "name": "Mon Petit Trafic",
     "slug": "MonPetitTrafic",
-    "version": "1.0.0",
+    "version": "0.2.0.beta",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "monpetittrafic",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/logo.png"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#EEB27F",
+        "foregroundImage": "./assets/images/logo_foreground.png",
+        "backgroundImage": "",
+        "monochromeImage": "./assets/images/logo_false_monochrom.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#FFDFAE",
           "android": {
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
