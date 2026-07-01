@@ -58,3 +58,5 @@ Ce projet est fourni sous la licence **Apache 2.0**
 4. De même, les responsables de Mon Petit Trafic ne pourront pas être tenus responsables pour un incident technique survenue du côté de la plateforme X.
 
 En cas de questionnement, merci de contacter un membre de l'organisation.
+
+**Special Thanks to every people contributing to Nitter's ecosystem.**
