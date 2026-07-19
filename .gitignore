@@ -45,3 +45,6 @@ example
 # Dev folders
 .vscode/
 .idea/
+
+# Firebase Cloud Messaging
+google-services.json
