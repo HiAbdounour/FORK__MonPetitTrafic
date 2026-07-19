@@ -11,6 +11,7 @@
       "icon": "./assets/images/logo.png"
     },
     "android": {
+      "googleServicesFile": "./src/app/google-services.json",
       "adaptiveIcon": {
         "backgroundColor": "#EEB27F",
         "foregroundImage": "./assets/images/logo_foreground.png",
@@ -34,7 +35,8 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "@react-native-firebase/app"
     ],
     "experiments": {
       "typedRoutes": true,
