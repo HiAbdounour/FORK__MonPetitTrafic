@@ -4,7 +4,7 @@
 </p>
 
 ______________
-<p style='text-align:center;font-weight:800'>Toutes vos infos trafic en un endroit, en un instant !</p>
+<p align='center'>**Toutes vos infos trafic en un endroit, en un instant !**</p>
 
 # 🚄Nani🚌 ?
 
@@ -28,11 +28,11 @@ Ainsi, vous l'aurez compris, Mon Petit Trafic est développé pour **rendre acce
 # ⚙️ Fonctionnement
 
 ➡️ Mon Petit Trafic se base sur les **flux RSS générés par Nitter**\*, un service open-source permettant d'accéder au contenu de la plateforme X.
-- L'utilisateur peut **sélectionner les lignes** dont il souhaite suivre la situation du trafic depuis l'application Mon Petit Trafic.\
+- L'utilisateur peut **sélectionner les lignes** dont il souhaite suivre la situation du trafic depuis l'application Mon Petit Trafic.
 
 *Précision : actuellement, seules les lignes de RER, de Transilien, de Métro et de Tramway sont proposées. Il est prévu d'inclure en plus les lignes de bus ainsi que le Câble C1.*
 
-- Selon les préférences de l'utilisateur, l'application lancera **une notification push-up** dès lors que l'une des lignes sélectionnées est perturbée.
+- Selon les préférences de l'utilisateur, l'application lancera **une notification push-up** dès lors qu'une des lignes sélectionnées est perturbée.
 - De même, **chaque évolution de la situation** annoncée sur X sera relayée par notification push-up.
 - L'utilisateur peut également **désactiver les notifications**, rendant l'application totalement silencieuse.
 
@@ -50,16 +50,15 @@ Que ce soit une résolution de bug, une nouvelle fonctionnalité, un typo corrig
 
 Pour plus de détails sur comment contribuer, consulter le fichier `CONTRIBUTING.md`.
 
-# 🔑 License
+# 🔑 Licence
 
 Ce projet est fourni sous la licence **Apache 2.0**
 
 # 📝 Précisions complémentaires
  
 1. Le projet Mon Petit Trafic est né d'un besoin d'accessibilité à de l'information publique générée par des instances publiques.
-2. Le projet Mon Petit Trafic n'est nullement affilié ni associé à Nitter, ni à X (ex-Twitter). Leurs logos et autres marques déposées restent sous leur propriété respective
-3. L'application Mon Petit Trafic reposant sur les flux RSS de Nitter, les responsables de Mon Petit Trafic ne pourront pas être tenus responsables pour un incident technique ou une panne survenue sur les serveurs de Nitter.
-4. De même, les responsables de Mon Petit Trafic ne pourront pas être tenus responsables pour un incident technique survenue du côté de la plateforme X.
+2. Le projet Mon Petit Trafic n'est nullement affilié ni associé à Nitter, ni à X (ex-Twitter). Leurs logos et autres marques déposées restent sous leur propriété respective.
+3. L'application Mon Petit Trafic reposant sur les flux RSS de Nitter, les responsables de Mon Petit Trafic ne pourront pas être tenus responsables pour un incident technique ou une panne survenue sur les serveurs de Nitter. De même, les responsables de Mon Petit Trafic ne pourront pas être tenus responsables pour un incident technique survenue du côté de la plateforme X.
 
 En cas de questionnement, merci de contacter un membre de l'organisation.
 
